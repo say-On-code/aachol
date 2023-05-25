@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/bgimg2">
+
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/topleftoval"
+        android:background="@drawable/top_left_corner_oval"/>
+
+    <ImageView
+        android:id="@+id/sparkImg"
+        android:layout_width="389dp"
+        android:layout_height="466dp"
+        android:paddingStart="30dp"
+        android:src="@drawable/girl" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slang"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/sparkImg"
+        android:text=" &quot; Her strength, in times of trial and stress \n
+Is a beacon, of hope, no less \n
+Her wisdom, her grace, in every test \n
+Proves her value, above the rest &quot; "
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:fontFamily="@font/dancingfont"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Welcome \n 🙏 প্রবেশ পথ🙏 "
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_background"
+        android:id="@+id/btnGetStarted"
+        android:layout_marginTop="40px"
+        android:layout_below="@id/slang"/>
+
+
+
+</RelativeLayout>
