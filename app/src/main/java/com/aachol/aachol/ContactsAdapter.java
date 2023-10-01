@@ -25,7 +25,7 @@ public class ContactsAdapter extends RecyclerView.Adapter<ContactsAdapter.MyView
     ContactsAdapter(Context context, ArrayList<String> send,MyOnClickListener myOnClickListener){
         this.send = send;
         this.context = context;
-        this.myOnClickListener = myOnClickListener;
+        this.myOnClickListener = myOnClickListener;//contact adapter class def
     }
 
     @NonNull
